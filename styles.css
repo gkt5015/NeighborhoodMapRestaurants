@@ -1,0 +1,58 @@
+h1 {
+    color: black;
+    font-family: 'Josefin Sans', sans-serif;
+}
+.container{
+    margin: 0 auto;
+    width: 940px;
+}
+
+#inputbox {
+    padding: 3px;
+}
+
+#pac-input {
+    width: 300px;
+}
+
+#info {
+    height: 550px;
+    width: 25%;
+    background-color: #f7f7f7;
+    display: block;
+    float: left;
+    color: black;
+    overflow: auto;
+    font-family: 'Nunito';
+    font-weight: 900;
+    font-style: italic;
+}
+#current {
+    height: 50px;
+    overflow: hidden;
+}
+#current h2 {
+    text-align: center;
+    vertical-align: middle;
+}
+#sidelist {
+    list-style-type: decimal;
+    padding: 0;
+}
+
+.listItems {
+    border: 1px solid white;
+    font-size: 10px;
+    padding: 15px 12px;
+    margin: 0px 5px;
+    cursor: pointer;
+    font-weight: 800;
+    font-style: italic;
+}
+
+#map {
+    height: 550px;
+    width: 75%;
+    display: block;
+    float: left;
+}
